@@ -33,14 +33,14 @@ header{
     width: 15%;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1500px){
     #main {flex-direction: column;}
     #left { order: 2; min-width: none;}
     #right { order: 2;}
 }
-@media screen and (min-width: 768px) and (max-width:1023){
+@media screen and (min-width: 1501px) and (max-width:1999px){
     #right { order: 1; width:15%}
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 2000px){
 
 }
