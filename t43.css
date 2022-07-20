@@ -34,11 +34,12 @@ header{
 }
 
 @media screen and (max-width: 767px){
+    #main {flex-direction: column;}
     #left { order: 2; min-width: none;}
     #right { order: 2;}
 }
 @media screen and (min-width: 768px) and (max-width:1023){
-    #right { order: 1;}
+    #right { order: 1; width:15%}
 }
 @media screen and (min-width: 1024px){
 
